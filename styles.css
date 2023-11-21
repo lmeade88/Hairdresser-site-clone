@@ -1,0 +1,121 @@
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Clear fix hack */
+  .clearfix:after {
+       content: ".";
+       display: block;
+       clear: both;
+       visibility: hidden;
+       line-height: 0;
+       height: 0;
+  }
+  
+  .clear {
+      clear: both;
+  }
+  
+  /******************************************
+  /* BASE STYLES
+  /*******************************************/
+  nav * {
+    text-align: center;
+    display: inline-block;
+    padding: 0 1%;
+    list-style: none;
+  }
+
+  nav {
+    padding-left: 20%;
+  }
+
+  nav ul {
+    width: 90%;
+  }
+
+  nav ul li {
+    list-style: none;
+    padding: 0 2%;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  nav span {
+    padding-left: 20%;
+  }
+
+  main {
+    background-color: antiquewhite;
+    height: 840px;;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  main > section {
+    padding-left: 20%;
+    padding-top: 10%;
+  }
+
+  main > section h1 {
+    width: 30%;
+  }
+
+  main section section {
+    background-color: black;
+    width: 20%;
+    color: white;
+    padding: 3%;
+    margin-top: 5%;
+  }
+
+  main + section {
+    background-color: aquamarine;
+    text-align: center;
+    width: 100%;
+  }
+
+  main + section section {
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 0 10%;
+  }
+
+  main + section + section {
+    background-color: lightgrey;
+    padding: 0 10%;
+    display: inline-block;
+    height: 400px;
+  }
+
+  main + section + section section {
+    background-color: lightgray;
+    padding: 8% 0;
+    width: 50%;
+    float: left;
+    display: inline-block;
+  }
+
+  main + section + section + section section {
+    width: 25%;
+    float: left;
+    text-align: center;
+    height: 400px;
+  }
+
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+
+
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
